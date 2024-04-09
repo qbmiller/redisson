@@ -46,6 +46,8 @@ import java.util.stream.Collectors;
  */
 public class SentinelConnectionManager extends MasterSlaveConnectionManager {
 
+
+
     private final Logger log = LoggerFactory.getLogger(getClass());
 
     private final Set<RedisURI> sentinelHosts = new HashSet<>();
